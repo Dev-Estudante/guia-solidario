@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://usr-srv-master:ldddvtNyFdwel5NN@cluster0.1dxumn1.mongodb.net/guia_solidario?retryWrites=true&w=majority
+      database: guia_solidario
+  application:
+    name: guia-solidario
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      write-dates-as-timestamps: false

@@ -1,0 +1,4 @@
+GET http://localhost:8080/ongs/search/by-filters?categoriaNome=Cultura&page=0&size=5
+###
+GET http://localhost:8080/ongs/search/by-filters?bairro=Liberdade&categoriaNome=Cultura&latitude=-23.558704&longitude=-46.633842&page=0&size=5
+###
